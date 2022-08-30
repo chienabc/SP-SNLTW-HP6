@@ -1,0 +1,414 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--------- Global Classes --------*/
+
+/*--------- Global Classes --------*/
+/*--------- NAV-MENU --------*/
+header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+header a img{
+    width: 50%;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    letter-spacing: 3px;
+}
+.nav_links li a{
+    text-decoration: none;
+    color: #000000;
+}
+.nav_links li a:hover{
+    color: #7FAD39;
+    transition: all 0.3s ease 0s;
+}
+.nav_social{
+    display: flex;
+}
+.nav_social a .center_icon{
+    margin-left: 9px;
+    margin-right: 13px;
+}
+.nav_social a{
+    text-decoration: none;
+    color: #000000;
+}
+/*--------- NAV-MENU --------*/
+/*--------- SECTION ---------*/
+.list-center{
+    background-color: #7FAD39 !important;
+    border: 1px solid #7FAD39 !important;
+}
+.input-group .meal span{
+    background-color: white !important;
+    color: #000000;
+    border: 1px solid #f5f5f5;
+}
+.input-group button{
+    background-color: #7FAD39 !important;
+    border: 1px solid #7FAD39;
+}
+.input-group button:hover{
+    background-color: #7FAD39 !important;
+    color: #000000
+}
+.icon-social{
+    display: flex;
+}
+.icon-social .fa-phone{
+    font-size: 18px;
+    color: #7fad39;
+    height: 50px;
+    width: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 25px;
+}
+.item span:first-child{
+    color: #1c1c1c;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+input{
+    width : 23rem;
+    border: 1px solid #f5f5f5;
+}
+/*----
+----- carousel ---------*/
+.jumbotron h5{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #7fad39;
+}
+.jumbotron h2{
+    font-size: 46px;
+    color: #252525;
+    line-height: 52px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.jumbotron p{
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+.jumbotron button{
+    background-color: #7FAD39;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 28px 10px;
+    color: #ffffff;
+    border: 1px solid #7FAD39;
+    border-radius: 25px;
+}
+.jumbotron button:hover{
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+.total{
+    margin-top: 115px
+}
+/*-------- carousel ---------*/
+.jumbotron{
+    background-image: url(./img/ca2.jpg);
+    background-size: cover;
+    height: 55vh;
+    opacity: 0.8;
+    margin-top: 25px;
+}
+/*--------- SECTION ---------*/
+/*--------- SECTION - V3 ---------*/
+.title-list h2{
+    font-family: sans-serif;
+    position: relative;
+}
+.title-list h2:before{
+    content: "";
+    display:block;
+    width: 40px;
+    height:2px;
+    background:#7FAD39;
+    position: absolute;
+    left: 385px;
+    top: 50%;
+    z-index: -2;
+   
+    }
+.title-list h2:after{
+    content: "";
+    display:block;
+    width: 40px;
+    height:2px;
+    background:#7FAD39;
+    position: absolute;
+    right: 385px;
+    top: 50%;
+    z-index: -2;
+    }
+.title-list{
+    text-align: center;
+    margin-top: 50px;
+}
+.title-list .title-menu ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+.title-list .title-menu ul li{
+    font-size: 18px;
+    margin-right: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.title-list .title-menu ul li a{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+.card .left{
+    text-align: center;
+}
+.card-v2{
+    padding: 17px !important;
+}
+/*--------- SECTION - V3 ---------*/
+/*--------- SECTION - V4 ---------*/
+.banner a img{
+    width: 95%;
+    cursor: pointer;
+}
+.banner{
+    margin-left: 15px;
+}
+.banner-section{
+    margin-top: 50px;
+}
+/*--------- SECTION - V4 ---------*/
+/*--------- SECTION - V5 ---------*/
+.title-card h2{
+    font-family: sans-serif;
+    position: relative;
+}
+.title-card h2:before{
+    content: "";
+    display:block;
+    width: 40px;
+    height:2px;
+    background:#7FAD39;
+    position: absolute;
+    left: 403px;
+    top: 50%;
+    z-index: -2;
+}
+.title-card h2:after{
+    content: "";
+    display:block;
+    width: 40px;
+    height:2px;
+    background:#7FAD39;
+    position: absolute;
+    right: 403px;
+    top: 50%;
+    z-index: -2;
+}
+.title-card{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.comment ul{
+    display:flex;
+    color: #b2b2b2;
+    list-style: none;
+    justify-content: flex-start;
+  }
+ .comment ul li:last-child{
+    margin-left:15px
+   }
+ .comment ul li i{
+     margin-right:8px
+   }  
+/*--------- SECTION - V5 ---------*/
+footer{
+    background-color: #F3F6FA;
+    max-width: 100%;
+    margin-top: 50px;
+}
+.footer-menu .footer-item{
+    padding: 50px;
+}
+.card-body .img-card img{
+    width: 22rem;
+}
+.comment-item{
+    display:flex;
+    cursor: pointer;
+  }
+  .comment-item p:last-child{
+    margin-left:20px;
+  }
+  .comment-item p i{
+    margin-right:8px;
+  }
+  /*--------- Reposive ---------*/
+     /* 
+     <576px: Thiết bị cực nhỏ như điện thoại di động ở chế độ dọc.
+
+     Từ 576px đến <768px: Thiết bị màn hình nhỏ như điện thoại di động ở chế độ ngang
+
+    Từ 768px đến <992px: thiết bị màn hình trung bình như máy tính bảng
+
+    Từ 992px đến <1200px: Thiết bị lớn như máy tính để bàn
+
+     Từ 1200px trở lên: Các thiết bị có màn hình máy tính cực lớn.
+
+@media only screen and (max-width : 480px){ here }
+@media only screen and (min-width : 960px){ here }
+     */
+     @media only screen and (max-width: 1024px) and (min-width: 767px){
+
+        .input-group{
+            margin-left: 40px !important;
+        }
+        .icon-social{
+            margin: 15px -25px !important;
+        } 
+         .jumbotron{
+            max-width: 90%;
+            height:68%;
+            margin-left: 40px;
+            margin-bottom: 4px;
+        } 
+        .title-list h2:before{
+            content: "";
+            display:block;
+            width: 40px;
+            height:2px;
+            background:#7FAD39;
+            position: absolute;
+            left: 285px;
+            top: 50%;
+            z-index: -2;
+        }
+        .title-list h2:after{
+            content: "";
+            display:block;
+            width: 40px;
+            height:2px;
+            background:#7FAD39;
+            position: absolute;
+            right: 285px;
+            top: 50%;
+            z-index: -2;
+        }
+        .card-v2 .card{
+            width: 14rem !important;
+        }
+
+        .title-card h2:before{
+            content: "";
+            display:block;
+            width: 40px;
+            height:2px;
+            background:#7FAD39;
+            position: absolute;
+            left: 310px;
+            top: 50%;
+            z-index: -2;
+        }
+        .title-card h2:after{
+            content: "";
+            display:block;
+            width: 40px;
+            height:2px;
+            background:#7FAD39;
+            position: absolute;
+            right: 310px;
+            top: 50%;
+            z-index: -2;
+        }
+     }
+
+  /*--------- Reposive ---------*/
+
+
+  /*--------- Cart ---------*/
+ 
+  .product td img{
+    width: 40%;
+    height: 40%;
+  }
+  .product tr td{
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+  .product tr:nth-child(2) td i{
+    cursor: pointer;
+    background-color: #E6B325;
+    border:1px solid #E6B325;
+    border-radius: 5px;
+  }
+  .product td:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .product td:nth-child(1) span{
+    color: #1c1c1c;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .product tr:nth-child(1){
+    font-family: sans-serif;
+    color: #A47E3B;
+  }
+  .basketTotalContainer{
+    float: right;
+  }
+/*--------- Cart ---------*/
+/*--------- Footer ---------*/
+.footer-menu .footer-item img{
+    width: 85%;
+}
+.footer-item a{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+.footer-item .icon-social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer-item .icon-social i{
+    font-size: 18px;
+}
+.footer-item .icon-social i:hover{
+    cursor: pointer;
+    color: #7FAD39;
+    transition: all 0.3s ease 0s;
+}
+/*--------- Footer ---------*/
+

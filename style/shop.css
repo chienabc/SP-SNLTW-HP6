@@ -1,0 +1,329 @@
+header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+header a img{
+    width: 50%;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    letter-spacing: 3px;
+}
+.nav_links li a{
+    text-decoration: none;
+    color: #000000;
+}
+.nav_links li a:hover{
+    color: #7FAD39;
+    transition: all 0.3s ease 0s;
+}
+.nav_social{
+    display: flex;
+}
+.nav_social a .center_icon{
+    margin-left: 9px;
+    margin-right: 13px;
+}
+.nav_social a{
+    text-decoration: none;
+    color: #000000;
+}
+/*--------- NAV-MENU --------*/
+/*--------- SECTION ---------*/
+.list-center{
+    background-color: #7FAD39 !important;
+    border: 1px solid #7FAD39 !important;
+}
+.input-group .meal span{
+    background-color: white !important;
+    color: #000000;
+    border: 1px solid #f5f5f5;
+}
+.input-group button{
+    background-color: #7FAD39 !important;
+    border: 1px solid #7FAD39;
+}
+.input-group button:hover{
+    background-color: #7FAD39 !important;
+    color: #000000
+}
+.icon-social{
+    display: flex;
+}
+.icon-social .fa-phone{
+    font-size: 18px;
+    color: #7fad39;
+    height: 50px;
+    width: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 25px;
+}
+.item span:first-child{
+    color: #1c1c1c;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+input{
+    width : 23rem;
+    border: 1px solid #f5f5f5;
+}
+/*--------- carousel ---------*/
+/*--------- banner ---------*/
+.banner-shop{
+    margin-top: 50px;
+    position: relative;
+}
+.banner-opacity{
+    background-image: url(../img/breadcrumb.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    opacity: 0.7;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-item{
+    color: #ffffff !important;
+    font-weight: 700;
+    
+}
+.banner-opacity li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*--------- banner ---------*/
+/*--------- carousel-shop ---------*/
+.project-food h2,
+.title-part h4
+{
+    margin-bottom: 70px;
+    font-weight: 900;
+}
+.sidebar-item ul li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 40px;
+}
+.sidebar-item ul li a{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+.sidebar-item ul li a:hover{
+    color: #7fad39;
+    transition: all 0.3s ease 0;
+}
+.circle-list ul{
+    display:flex;
+    list-style:none;
+    cursor:pointer;
+  }
+  .sidebar-title h4{
+    margin-bottom: 30px;
+    color: #1c1c1c;
+    font-weight: 700;
+  }
+  .circle-fillter-1{
+    margin: 0 30px;
+  }
+  
+  .circle-fillter li:nth-child(1){
+    background-color:green;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+  }
+  .circle-fillter li:nth-child(2){
+    background-color:gray;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    margin-top:25px;
+  }
+  .circle-fillter-1 li:nth-child(1){
+    background-color:red;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+  }
+  .circle-fillter-1 li:nth-child(2){
+    background-color:blue;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    margin-top:25px;
+  }
+  .circle-fillter-2 li:nth-child(1){
+    background-color:#ffff00;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+  }
+  .circle-fillter-2 li:nth-child(2){
+    background-color:#ffcccc;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    margin-top:25px;
+  }
+  .title-popular h4{
+    margin-bottom: 30px;
+    color: #1c1c1c;
+    font-weight: 700;
+  }
+  
+  .popular-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+  }
+  .popular-item .item a{
+    min-width: 40%;
+    display: inline-block;
+    background: gray;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 0.5s;
+    border: 1px solid gray;
+  }
+  .popular-item .item a:hover{
+    background: #fff;
+    color: gray;
+    
+  }
+
+/* .project-food h2:before{
+    content: "";
+    display:block;
+    width: 40px;
+    height:2px;
+    background:#7FAD39;
+    position: absolute;
+    left: 403px;
+    top: 50%;
+    z-index: -2;
+   
+    }
+.project-food h2:after{
+    content: "";
+    display:block;
+    width: 40px;
+    height:2px;
+    background:#7FAD39;
+    position: absolute;
+    right: 403px;
+    top: 50%;
+    z-index: -2;
+    } */
+.circe{
+    width: 30px;
+    height: 30px;
+    background-color:red;
+    color:white;
+    border-radius:50%;
+    font-size:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+.card-total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-total span{
+    line-height: 12px
+}
+.card-shop{
+    border: none;
+    width: 17rem;
+    position: relative;
+}
+.card-shop img{
+    cursor: pointer;
+}
+.project-menu{
+    margin-top: 40px;
+}
+.project-menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.product-card{
+    text-align: center;
+}
+.product-title{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.product-title h6:hover{
+    cursor: pointer;
+    color: #7FAD39 !important;
+    transition: all 0.3 ease 0 !important;
+}
+.product-title a{
+    text-decoration: none;
+    color: #1c1c1c;
+    cursor: pointer;
+}
+.product-title a:hover{
+    color: gray;
+    transition: 0.5s;
+}
+
+
+/*--------- carousel-shop ---------*/
+
+/*--------- Recent New ---------*/
+.recent-post{
+    margin-top: 45px;
+}
+.recent-1{
+    display: flex;
+    margin: 20px 0;
+}
+.recent-1 .content-recent span{
+    color: #1c1c1c;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+.recent-1 .content-recent cite{
+    font-size: 12px;
+    color: #999999;
+    text-transform: uppercase;
+}
+.content-recent{
+    margin-left: 20px;
+}
+
+/*--------- Recent New ---------*/
+
